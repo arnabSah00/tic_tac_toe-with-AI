@@ -1,0 +1,16 @@
+{
+  "name": "tic_tac_toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ttt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Arnab",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express3-handlebars": "^0.5.2"
+  }
+}

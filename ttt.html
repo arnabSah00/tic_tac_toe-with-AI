@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    
+    <div class="preRequire">
+        <!-- <h3>Please Choose Your Option</h3> -->
+        <div class="choose">
+            <h3>Play With</h3>
+            <button type="button" id="human">Human</button>
+            <button type="button" id="ai">AI</button>
+        </div>
+        <div class="level">
+            <br>
+            <button type="button" id="E">Easy</button>
+            <button type="button" id="H">Hard</button>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="score">
+            <h3>Score</h3>
+            <h1>X : O</h1>
+            <div id="sVal">
+                <p id="xVal">0</p> 
+                <p id="div">:</p> 
+                <p id="oVal">0</p>              
+            </div>
+        </div>
+
+        <div class="bd">
+            <table class="board">
+                <tr>
+                    <td id="1"></td>
+                    <td id="2"></td>
+                    <td id="3"></td>
+                </tr>
+
+                <tr>
+                    <td id="4"></td>
+                    <td id="5"></td>
+                    <td id="6"></td>
+                </tr>
+
+                <tr>
+                    <td id="7"></td>
+                    <td id="8"></td>
+                    <td id="9"></td>
+                </tr>
+            </table>
+            <h3>Turn of: X</h3>
+        </div>
+
+        <div class="endM">
+            <button type="button" id="restart">Restart</button>
+            <button type="button" id="reset">Reset</button>
+        </div>
+
+    </div>
+
+    <!-- <style>
+
+    </style> -->
+</body>
+<link rel="stylesheet" href="ttt.css">
+<script src="ttt.js"></script>
+<script src="server.js"></script>
+</html>
